@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jae-Sik Jeong - ML Engineer & Data Scientist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: white;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+
+        .title {
+            font-size: 24px;
+            color: #6b7280;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .bio {
+            font-size: 18px;
+            color: #1f2937;
+            margin-bottom: 3rem;
+            font-weight: 400;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #2563eb;
+            border: 2px solid #2563eb;
+            box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .btn-outline:hover {
+            background-color: #2563eb;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transform: translateY(-1px);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .name {
+                font-size: 36px;
+            }
+            
+            .title {
+                font-size: 20px;
+            }
+            
+            .bio {
+                font-size: 16px;
+                margin-bottom: 2rem;
+            }
+            
+            .buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 200px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 1rem;
+            }
+            
+            .name {
+                font-size: 32px;
+            }
+            
+            .title {
+                font-size: 18px;
+            }
+            
+            .bio {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="name">Jae-Sik Jeong</h1>
+            <h2 class="title">ML Engineer & Data Scientist</h2>
+            <p class="bio">Bridging AI and Civil Engineering</p>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">Download CV</a>
+                <a href="#" class="btn btn-outline">GitHub</a>
+                <a href="#" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
